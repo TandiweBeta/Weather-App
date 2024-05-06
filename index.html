@@ -4,32 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <title>weather-App</title>
 </head>
 <body>
   <div class="weather-container">
    <header>
     <form>
-      <input type="search"placeholder "Enter a city.."required/>
-      <input type="submit" value="search"/>
+      <input type="search" placeholder ="Enter a city.."required
+      class="search-form-input"/>
+      <input type="submit"
+       value="search"
+       class="search-form-button"/>
     </form>
    </header>
    <main>
- <div>
-     <h1>
+      <div class= "weather-data">
+        <div>
+     <h1 class="weather-city">
     Johannesburg
       </h1>
-    <p>
+    <p class="weather-details">
+     
         Tuesday 14:49, scattered clouds
         <br/>
-        Humidity: 66%, Wind: 3.13km/h
+        Humidity:<strong> 66%</strong>, Wind: <strong>3.13km/h</strong>
      </p>
      </div>
-     <div>
-      🌥️ 12°c
+     <div class=" weather-app-temperature-container">
+      <div class="weather-icon">🌥️ </div>
+      <div class="weather-temperature">12</div>
+      <div class= " weather-unit">°c </div>
+    </div>
      </div>
   </main>
   <footer>
