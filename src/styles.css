@@ -57,20 +57,22 @@ justify-content: space-between;
   color: #f65282;
 }
 .weather-icon{
-  font-size: 44px;
-  margin-top: 22px;
+  font-size: 36px;
+  margin-top: 20px;
+   
 }
 .weather-temperature{
   font-size: 78px;
   font-weight: bold;
+  padding-top:20px;
 }
 .weather-unit{
-  margin-top: 16px;
+  margin-top: 36px;
   font-size: 28px;
 }
 footer{
 border-bottom: 1px solid #daf0ff;
-padding-top: 150px;
+padding-top: 120px;
 text-align: center;
 font-size: 14px;  
 
